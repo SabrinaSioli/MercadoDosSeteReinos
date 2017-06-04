@@ -272,7 +272,7 @@
                     $camposOK = true;
 
                     if ($senha != $confirmacao) {
-                        echo 'As senha nÃ£o sÃ£o iguais<br>';
+                        echo 'As senha não são iguais<br>';
                         $camposOK = false;
                     }
 
