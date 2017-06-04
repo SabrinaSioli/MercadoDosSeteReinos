@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Conheça esse livro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../../Estilos/Estilos.css"/>
+        <link rel="shortcut icon" href="../../Imagens/WiC.png" type="image/png"/>
+        
+        <script>
+            function mudaLogo1(){
+                document.getElementById("Logo").src = " ../../Imagens/Logo1.png";
+            }
+            
+            function mudaLogo2(){
+                document.getElementById("Logo").src = " ../../Imagens/Logo2.png";
+            }
+            
+            function mudaAGDT1x1(){
+                document.getElementById("AGDT").src = " ../../Imagens/Livros/A Guerra dos Tronos - 1x1.jpg";
+            }
+            
+            function mudaAGDT1x2(){
+                document.getElementById("AGDT").src = " ../../Imagens/Livros/A Guerra dos Tronos - 1x2.jpg";
+            }
+        </script>
+        
+    </head>
+    <body> 
+        <div id="site">
+            
+            <div id="topo"><center><img src=" ../../Imagens/Logo1.png" title="Mercado dos Sete Reinos" id="Logo" onclick="mudaLogo2()" onmouseout="mudaLogo1()"/></center></div>
+          
+            <div id="menu">
+                <ul>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/index.html" title="Home">Home</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Livros/index.html" title="Livros">Livros</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/M%C3%ADdia/index.html" title="Mídia">Mídia</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Roupas/index.html" title="Roupas">Roupas</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Acess%C3%B3rios/index.html" title="Acessórios">Acessórios</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Posters/index.html" title="Posters">Posters</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Cadastro/index.html" title="Cadastro">Cadastro</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Sobre/index.html" title="Sobre">Sobre</a></li>
+                </ul>
+            </div>
+           
+            <div id="livros">
+                <br/><br/>
+                <center><h3>A GUERRA DOS TRONOS</h3></center>
+                <br/>
+                <center><p>Funções da Página:<br/>Ao <b>clicar na foto</b> de determinado produto, você obterá o seu preço.</p></center>
+                <br/>
+                <br/>
+                
+                    <div id="livimg_1">
+                        <a href="http://localhost/MercadoDosSeteReinos/Menu/Posters/index.html" >  <img src="../../Imagens/Livros/A Guerra dos Tronos - 1x1.jpg" title="A Guerra dos Tronos" id="AGDT" onmouseout="mudaAGDT1x1()" onclick="mudaAGDT1x2()"/></a>
+                    </div>
+                    <div id="espdescliv_1">
+                        <p id="descliv" align="justify"><br/>Em uma terra onde o verão pode durar décadas e o inverno toda uma vida, os problemas
+                        estão apenas começando. O frio está de volta e, nas florestas ao norte de Winterfell, forças sobrenatur
+                        ais se espalham por trás da Muralha que protege a região. No centro do conflito estão os Stark do reino
+                        de Winterfell, uma família tão áspera quanto as terras que lhe pertencem. Dos lugares onde o frio é bru
+                        tal até os distantes reinos de plenitude e sol, George R. R. Martin narra uma história de lordes e dama
+                        s, cavaleiros e mercenários, assassinos e bastardos, que se juntam em um tempo de presságios malignos.
+                        Entre disputas por reinos, tragédias e traições, vitória e terror, o destino dos Stark, seus aliados e
+                        seus inimigos é incerto. Mas cada um está se esforçando para ganhar este conflito mortal: a guerra dos
+                        tronos.<br/>
+                        <br/><b>Autor</b>: Martin, George R. R.
+                        <br/><b>Paginas</b>: 592.
+                        <br/><b>Tipo</b>: Brochura.
+                        <br/><b>Preço</b>: 33,90.<br/>
+                        <br><a href="FormDeCompra.html" style="color: red">Clique para comprar este produto! </a></br>
+                        </p>
+                
+            </div>
+            </div>
+            
+    </body>
+    
+</html>
+

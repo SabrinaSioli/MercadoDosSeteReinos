@@ -1,0 +1,6 @@
+[1204/125007:ERROR:crash_report_database_win.cc(562)] CreateDirectory C:\Program Files\reports: Acesso negado. (0x5)
+[1204/125007:ERROR:registration_protocol_win.cc(82)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[1204/125007:ERROR:crash_report_database_win.cc(562)] CreateDirectory C:\Program Files\reports: Acesso negado. (0x5)
+[1204/125059:ERROR:crash_report_database_win.cc(562)] CreateDirectory C:\Program Files\reports: Acesso negado. (0x5)
+[1204/125059:ERROR:registration_protocol_win.cc(82)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[1204/125059:ERROR:crash_report_database_win.cc(562)] CreateDirectory C:\Program Files\reports: Acesso negado. (0x5)

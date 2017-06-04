@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mercado dos Sete Reinos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Estilos/Estilos.css"/>
+        <link rel="shortcut icon" href="Imagens/WiC.png" type="image/png"/>
+        <script src="JavaScript/javascript.js" type="text/javascript"></script>
+        <link href="Slider/slider.css" rel="stylesheet" type="text/css"/>
+
+        <script>
+            alert("Bem-vindo ao MERCADO DOS SETE REINOS!");
+        </script>
+        
+        <script>
+            function mudaLogo1(){
+                document.getElementById("Logo").src = " Imagens/Logo1.png";
+            }
+            
+            function mudaLogo2(){
+                document.getElementById("Logo").src = " Imagens/Logo2.png";
+            }
+        </script>
+    </head>
+    <body> 
+        <div id="site">
+            
+            <div id="topo"><center><img src="Imagens/Logo1.png" title="Mercado dos Sete Reinos" id="Logo" onmousemove="mudaLogo2()" onmouseout="mudaLogo1()" /></center></div>
+          
+            <div id="menu">
+                <ul>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/index.html" title="Home">Home</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Livros/index.html" title="Livros">Livros</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/M%C3%ADdia/index.html" title="Mídia">Mídia</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Roupas/index.html" title="Roupas">Roupas</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Acess%C3%B3rios/index.html" title="Acessórios">Acessórios</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Posters/index.html" title="Posters">Posters</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Cadastro/index.html" title="Cadastro">Cadastro</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Sobre/index.html" title="Sobre">Sobre</a></li>
+                </ul>
+            </div>
+           
+            <div id="homeconteudo">
+                <br/>
+                <p align="center">Navegue pelas páginas, cadastre-se, compre, viva a <b>Guerra dos Tronos</b>.</p>
+                <figure>
+                <span class="trs next"></span>
+                <span class="trs prev"></span>
+                
+                <div id="slider">
+                    <a href="http://localhost:/MercadoDosSeteReinos/Menu/M%C3%ADdia/index.html" class="trs"><img src="Imagens/Mídia/Season 1.jpg" alt="MÍDIA" width="640px" height="360px"/></a>
+                    <a href="http://localhost:/MercadoDosSeteReinos/Menu/Livros/index.html" class="trs"><img src="Imagens/Mídia/Season 2.jpg" alt="LIVROS" width="640px" height="360px"/></a>
+                    <a href="http://localhost:/MercadoDosSeteReinos/Menu/Posters/index.html" class="trs"><img src="Imagens/Mídia/Season 3.jpg" alt="POSTERS" width="640px" height="360px"/></a>
+                    <a href="http://localhost:/MercadoDosSeteReinos/Menu/Acess%C3%B3rios/index.html" class="trs"><img src="Imagens/Mídia/Season 4.jpg" alt="ACESSÓRIOS" width="640px" height="360px"/></a>
+                    <a href="http://localhost:/MercadoDosSeteReinos/Menu/Roupas/index.html" class="trs"><img src="Imagens/Mídia/Season 5.jpg" alt="ROUPAS" width="640px" height="360px"/></a>
+                    <a href="http://localhost:/MercadoDosSeteReinos/Menu/Cadastro/index.html" class="trs"><img src="Imagens/Mídia/Season 6.jpg" alt="CADASTRO" width="640px" height="360px"/></a>
+                </div>
+                <figcaption></figcaption>
+                </figure>
+                <center><video width="640px" height="360px" controls><source src="Vídeos/Official Show Open.mp4" type="video/mp4"></video></center>
+                <br/>
+                <center><video width="640px" height="360px" controls><source src="Vídeos/Game of Thrones.mp4" type="video/mp4"></video></center>
+            </div>
+                       
+        </div>
+    </body>
+</html>

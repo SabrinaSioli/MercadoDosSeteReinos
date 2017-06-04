@@ -1,0 +1,22 @@
+.Episode{
+    width:640px;
+    height:360px;
+}
+ul.bsm{
+margin: 0px auto;
+border:1px solid #ffffff;
+list-style-type: none;
+}
+ul.bsm li{
+border-left:2px solid #FFFFFF;
+}
+ul.bsm li.first{
+border-style: none;
+width:640px;
+height:360px;
+}
+ul.vertical li,
+div.vertical div{
+border-top: 2px solid #FFFFFF;
+border-left-style: none;
+}

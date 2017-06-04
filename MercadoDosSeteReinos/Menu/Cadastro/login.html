@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Mercado dos Sete Reinos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../../Estilos/Estilos.css"/>
+        <link rel="shortcut icon" href="Imagens/WiC.png" type="image/png"/>
+
+        <script>
+            function mudaLogo1() {
+                document.getElementById("Logo").src = " ../../Imagens/Logo1.png";
+            }
+
+            function mudaLogo2() {
+                document.getElementById("Logo").src = " ../../Imagens/Logo2.png";
+            }
+        </script>
+
+    </head>
+    <body> 
+        <div id="site">
+
+            <div id="topo"><center><img src="../../Imagens/Logo1.png" title="Mercado dos Sete Reinos" id="Logo" onmousemove="mudaLogo2()" onmouseout="mudaLogo1()" /></center></div>
+
+            <div id="menu">
+                <ul>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/index.html" title="Home">Home</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Livros/index.html" title="Livros">Livros</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/M%C3%ADdia/index.html" title="Mídia">Mídia</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Roupas/index.html" title="Roupas">Roupas</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Acess%C3%B3rios/index.html" title="Acessórios">Acessórios</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Posters/index.html" title="Posters">Posters</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Cadastro/index.html" title="Cadastro">Cadastro</a></li>
+                    <li><a href="http://localhost/MercadoDosSeteReinos/Menu/Sobre/index.html" title="Sobre">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div id="cadastro">
+                <font style="color: white"></font>
+                <center><h1 style="color: white"> Bem vindo ao nosso Reino!</h1></center>
+                <center><h2 style="color: white"> Acesse sua conta:</h2><br /></center>
+
+
+                <center><form action="../../php2.php" method="POST">
+                        <!-- DADOS PESSOAIS-->
+                        <fieldset>
+
+                            <table cellspacing="10">
+
+                                <center> <legend style="color: white">Dados de login</legend></center>
+                                <table cellspacing="10">
+                                    <tr>
+                                        <td>
+                                            <label style="color: white" for="email">E-mail: </label>
+                                        </td>
+                                        <td align="left">
+                                            <input type="text" id="E-mail" title="Preencha o campo E-mail" required name="email">
+                                        </td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>
+                                            <label style="color: white" for="pass">Senha: </label>
+                                        </td>
+                                        <td align="left">
+                                            <input type="password" id="Senha" title="Preencha o campo Senha" required name="pass">
+                                        </td>
+                                    <tr/>
+                                    </tr>
+                                </table>
+                        </fieldset>
+                        <br />
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </form>
+                </center>              
+            </div>
+    </body>
+</html>

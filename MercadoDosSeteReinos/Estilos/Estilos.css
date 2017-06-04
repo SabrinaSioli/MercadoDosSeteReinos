@@ -1,0 +1,131 @@
+
+
+
+*{margin:0; padding:0; border:0;}
+
+body{background-color: black; margin-top: 50px;}
+
+div#site{background-color: grey; width: 1100px; height: 100%; margin: auto; padding: 5px; margin-bottom: 100px;}
+body{background-image: url(../Imagens/WinterIsComing.jpg);background-attachment: fixed; background-position: center;}
+
+div#topo{background-color: black; width: 100%; height: 160px; margin-bottom: 5px;}
+div#topo h1{font-family: Game of Thrones; font-size: 45px; color: white; padding: 10px 10px}
+
+div#menu{background-color: #000000; width: 100%; height: 40px; margin-bottom: 5px;}
+div#menu ul{width: 100%; height: 40px;}
+div#menu ul li{display: inline;}
+div#menu ul li a{color: #ffffff; font: 17px Arial; text-decoration: none; float: left; padding: 10px 40.7px;}
+div#menu ul li a:hover{background: grey;color: black; display: block}
+
+div#celcapa{background-color: #000000; width: 100%; height: 1800px;}
+div#img_celcapa{width: 195.4px; height: 286.3px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#img_celcapa{width: 195.4px; height: 286.3px;}
+div#espdesccelcapa{width: 821.6px; height: 286.3px; background-color: white; float: left; margin-left: 1px; margin-bottom: 5px;}
+div#homeconteudo{background-color: #000000; width: 100%; height: 1300px;}
+
+div#homeconteudo2{background-image: url("../Imagens/w2.jpg" ); background-position: -100px; width: 100%; height: 1300px;}
+
+h2{font-family: agency FB; color: #ffffff; font-size: 35px; padding: 5px}
+div#conteudo img{width: 150px ; height: 200px; margin-bottom: 1px;}
+div#conteudo a {color: #9933ff;font-family: ISOCPEUR; font-size: 30px; text-decoration: none}
+div#conteudo a:hover{color: #33cc00}
+div#pconteudo{background-color: #000000; width: 100%; height: 250px;}
+div#sobreconteudo{background-color: #000000; width: 100%; height: 570px;}
+div#livrosconteudo{background-color: #000000; width: 100%; height: 550px;}
+div#sérieconteudo{background-color: #000000; width: 100%; height: 2300px;}
+div#siteconteudo{background-color: #000000; width: 100%; height: 1060px;}
+div#s1conteudo{background-color: #000000; width: 100%; height: 900px;}
+
+div#cadastro{background-color: #000000; width: 100%; height: 700px;}
+
+div#table { border-color: black;}
+div#table tr { background-color: beige;  }
+div#table tr td {color: black; font: 17px Arial;}
+
+center{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+a{
+    color: grey;
+}
+
+p{
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+p#descliv{
+    color: black;
+}
+
+div#galeria1conteudo{background-color: #000000; width: 100%; height: 650px;}
+div#roupas{background-color: #000000; width: 100%; height: 500px;}
+div#posters{background-color: #000000; width: 100%; height: 500px;}
+
+div#livros{background-color: #000000; width: 100%; height: 1800px;}
+div#livimg_1{width: 195.4px; height: 286.3px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#livimg_1 img{width: 195.4px; height: 286.3px;}
+div#espdescliv_1{width: 821.6px; height: 286.3px; background-color: white; float: left; margin-left: 1px; margin-bottom: 5px;}
+div#livimg_2{width: 195.4px; height: 286.3px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#livimg_2 img{width: 195.4px; height: 286.3px;}
+div#espdescliv_2{width: 821.6px; height: 286.3px; background-color: white; float: left; margin-left: 1px; margin-bottom: 5px;}
+div#livimg_3{width: 195.4px; height: 286.3px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#livimg_3 img{width: 195.4px; height: 286.3px;}
+div#espdescliv_3{width: 821.6px; height: 286.3px; background-color: white; float: left; margin-left: 1px; margin-bottom: 5px;}
+div#livimg_4{width: 195.4px; height: 286.3px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#livimg_4 img{width: 195.4px; height: 286.3px;}
+div#espdescliv_4{width: 821.6px; height: 286.3px; background-color: white; float: left; margin-left: 1px; margin-bottom: 5px;}
+div#livimg_5{width: 195.4px; height: 286.3px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#livimg_5 img{width: 195.4px; height: 286.3px;}
+div#espdescliv_5{width: 821.6px; height: 286.3px; background-color: white; float: left; margin-left: 1px; margin-bottom: 5px;}
+
+div#mídia{background-color: #000000; width: 100%; height: 2000px;}
+div#midimg_1{width: 195.4px; height: 286.3px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#midimg_1 img{width: 195.4px; height: 286.3px;}
+div#espdescmid_1{width: 821.6px; height: 286.3px; background-color: white; float: left; margin-left: 1px; margin-bottom: 5px;}
+div#midimg_2{width: 195.4px; height: 286.3px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#midimg_2 img{width: 195.4px; height: 286.3px;}
+div#espdescmid_2{width: 821.6px; height: 286.3px; background-color: white; float: left; margin-left: 1px; margin-bottom: 5px;}
+div#midimg_3{width: 195.4px; height: 286.3px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#midimg_3 img{width: 195.4px; height: 286.3px;}
+div#espdescmid_3{width: 821.6px; height: 286.3px; background-color: white; float: left; margin-left: 1px; margin-bottom: 5px;}
+div#midimg_4{width: 195.4px; height: 286.3px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#midimg_4 img{width: 195.4px; height: 286.3px;}
+div#espdescmid_4{width: 821.6px; height: 286.3px; background-color: white; float: left; margin-left: 1px; margin-bottom: 5px;}
+div#midimg_5{width: 195.4px; height: 286.3px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#midimg_5 img{width: 195.4px; height: 286.3px;}
+div#espdescmid_5{width: 821.6px; height: 286.3px; background-color: white; float: left; margin-left: 1px; margin-bottom: 5px;}
+div#midimg_6{width: 195.4px; height: 286.3px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#midimg_6 img{width: 195.4px; height: 286.3px;}
+div#espdescmid_6{width: 821.6px; height: 286.3px; background-color: white; float: left; margin-left: 1px; margin-bottom: 5px;}
+
+div#img_1{width: 200px; height: 200px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#img_1 img{width: 200px; height: 200px;}
+div#img_2{width: 200px; height: 200px; background-color: black; float: left; margin-left: 5px; margin-bottom: 5px;}
+div#img_2 img{width: 200px; height: 200px;}
+div#img_3{width: 200px; height: 200px; background-color: black;  float: left; margin-left: 5px; margin-bottom: 5px;}
+div#img_3 img{width: 200px; height: 200px;}
+div#img_4{width: 200px; height: 200px; background-color: black; float: left; margin-left: 5px; margin-bottom: 5px;}
+div#img_4 img{width: 200px; height: 200px;}
+div#img_5{width: 200px; height: 200px; background-color: black; float: right; margin-right: 40px; margin-bottom: 5px;}
+div#img_5 img{width: 200px; height: 200px;}
+div#img_6{width: 200px; height: 200px; background-color: black; float: left; margin-left: 40px; margin-bottom: 5px;}
+div#img_6 img{width: 200px; height: 200px;}
+div#img_7{width: 200px; height: 200px; background-color: black; float: left; margin-left: 5px; margin-bottom: 5px;}
+div#img_7 img{width: 200px; height: 200px;}
+div#img_8{width: 200px; height: 200px; background-color: black;  float: left; margin-left: 5px; margin-bottom: 5px;}
+div#img_8 img{width: 200px; height: 200px;}
+div#img_9{width: 200px; height: 200px; background-color: black; float: left; margin-left: 5px; margin-bottom: 5px;}
+div#img_9 img{width: 200px; height: 200px;}
+div#img_10{width: 200px; height: 200px; background-color: black; float: left; margin-left: 5px; margin-bottom: 5px;}
+div#img_10 img{width: 200px; height: 200px;}
