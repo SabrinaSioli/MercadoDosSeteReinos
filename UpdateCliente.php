@@ -235,7 +235,7 @@
                                     <label style="color: white" for="passconfirm">Código: </label>
                                 </td>
                                 <td align="left">
-                                    <input type="text" id="Email" title="Preencha o campo Codigo" name="chaveprimaria">
+                                    <input type="text" id="chaveprimaria2" title="Preencha o campo Codigo" name="chaveprimaria2">
                                 </td>
                             </tr>
                         </table>
@@ -250,7 +250,7 @@
 
                 if (isset($_POST['chaveprimaria'])) {
                     $cod = $_POST['chaveprimaria'];
-                    ;
+              
                     $nome = $_POST['name'];
                     $dia = $_POST['dia'];
                     $mes = $_POST['mes'];
@@ -269,6 +269,7 @@
                     $senha = $_POST['pass'];
                     $confirmacao = $_POST['passconfirm'];
                     $chaveprimaria = $_POST['chaveprimaria'];
+                    $chaveprimaria2 = $_POST['chaveprimaria2'];
                     $camposOK = true;
 
                     if ($senha != $confirmacao) {
@@ -281,7 +282,7 @@
                     $cep = $cep1 . $cep2;
                     $cpf = $cpf1 . $cpf2;
                     
-                    $sql = "UPDATE tbcliente SET Nome='$nome', date='$data', Cpf='$cpf', Cidade='$cidade', Estado='$estado', Email='$email', rg='$rg', numero='$numero', bairro='$bairro', cep='$cep', senha='$senha', rua='$rua' WHERE Codigo = '$chaveprimaria'";
+                    $sql = "UPDATE tbcliente SET Nome='$nome', date='$data', Cpf='$cpf', Cidade='$cidade', Estado='$estado', Email='$email', codigo = '$chaveprimaria2', rg='$rg', numero='$numero', bairro='$bairro', cep='$cep', senha='$senha', rua='$rua' WHERE Codigo = '$chaveprimaria'";
                     mysqli_query($con, $sql);
                     echo '<script>
                               alert("Atualizar Concluida com Sucesso!");
